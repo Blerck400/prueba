@@ -1,0 +1,56 @@
+.hola {
+background-image:url("imagenes/A7.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.centro {
+    text-shadow: 2px 2px 4px #000;
+    color:rgb(62, 2, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.imagen{
+    text-align: center;
+    height: 10vh;
+}
+.lon {
+    background-color: rgb(4, 5, 5);
+    color: #fdfcfc;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 70px;
+}
+
+@media screen {
+
+    .si {
+        color: #fdfcfc;
+        margin-left: 50px;
+        margin-right: 50px ;
+        border:rgb(81, 82, 82);
+        border-radius: 5px;
+        background-color: rgb(85, 85, 85);
+    }
+
+    .sii {
+        margin-left: 105px;
+        margin-right: 50px ;
+    }
+    
+    .siii {
+        background-color: rgb(71, 72, 72);
+        color: #fdfcfc;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+    }
+}
